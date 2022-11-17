@@ -3,11 +3,15 @@
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
+
 Data
-前端工程师
+
+- 前端工程师
+
 Programming Languages
-javascript,TypeScript (★★★★☆)
-Go (★★☆☆☆)
+
+- javascript,TypeScript (★★★★☆)
+- Go (★★☆☆☆)
 
 <!---
 xuxihai123/xuxihai123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
