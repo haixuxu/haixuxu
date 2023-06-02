@@ -10,7 +10,7 @@ Data
 
 Programming Languages
 
-- javascript,TypeScript (★★★★☆)
+- javascript,TypeScript (★★★★★)
 - Go (★★☆☆☆)
 
 <!---
