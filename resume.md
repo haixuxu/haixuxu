@@ -29,7 +29,7 @@
 - 数据库相关：MySQL/mongodb
 - 版本管理：Git/Svn
 - 系统相关：Linux(3年使用经验)/MacOs(4年使用经验)/Windows(工作前使用)
-- 其他：熟悉计算机网络，熟悉常见的linux命令使用, 熟悉小程序和公众号开发，熟悉uniapp开发，熟悉浏览器兼容性问题处理, 熟悉RPC实现原理，熟悉resetful api，JSONRPC  规范，熟悉nginx使用， 熟悉SQL注入，XSS和CSRF攻击防范，熟悉Oauth2认证机制, 熟悉SSE消息推送原理, 熟悉websocket使用，熟悉chrome的插件开发，熟悉异步请求的并发和链式处理, 搭建过gitlab CI、jenkins、sonarlint，企业npm， easymock服务。
+- 其他：熟悉计算机网络，熟悉常见的linux命令使用, 熟悉小程序和公众号开发，熟悉uniapp开发，熟悉浏览器兼容性问题处理, 熟悉RPC实现原理，熟悉resetful api，JSONRPC  规范，熟悉nginx使用， 熟悉SQL注入，XSS和CSRF攻击防范，熟悉Oauth2认证机制, 熟悉SSE消息推送原理, 熟悉websocket使用，熟悉chrome的插件开发，熟悉异步请求的并发和链式处理, 搭建过gitlab CI、jenkins、sonarquebe，企业npm， easymock服务。
 
 
 # 工作经历
