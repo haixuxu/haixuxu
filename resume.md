@@ -162,6 +162,7 @@
 - 相关技术: TCP协议/线程池
 - 代码地址:[https://github.com/xuxihai123/tcpscan](https://github.com/xuxihai123/tcpscan)
 
+
 ### vue-cli插件本地mock
 
 - 功能：vue-cli脚手架支持mock
@@ -178,7 +179,7 @@
 
 - 功能：基于oauth2的认证机制实现一个用户中心系统
 - 相关技术: express中间件,  nodejs， oauth2, mongodb, vue2
-- 代码地址: [https://gitlab.com/listpro/usercenter](https://gitlab.com/listpro/usercenter)
+- 代码地址: [https://gitlab.com/listpro/usercenter](https://gitlab.com/listpro/usercenter/oauth2-server)
 
 ### chatgpt镜像
 
@@ -190,7 +191,7 @@
 
 - 功能：支持mac上使用五笔/拼音/五笔拼音混合输入
 - 相关技术: swiftUI, 使用前缀树快速编码查找汉字
-- 代码地址:[https://github.com/xuxihai123/lotus](https://github.com/xuxihai123/lotus)
+- 代码地址:[https://github.com/xuxihai123/lotus](https://github.com/xuxihai123/lotus) , 基于前缀树使用nodejs实现的五笔拼音搜索服务: [https://github.com/xuxihai123/inputengine](https://github.com/xuxihai123/inputengine)
 
 ### 翻墙工具
 
