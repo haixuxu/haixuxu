@@ -5,6 +5,7 @@
 - 毕业时间:  2015年7月
 - 工作年限：7年
 - Github：[http://github.com/xuxihai123](http://github.com/xuxihai123)
+- 在线简历: [https://www.xuxihai.top/2017/05/12/page100](https://www.xuxihai.top/2017/05/12/page100)
 - 目前职位：前端开发工程师
 
 ---
@@ -31,7 +32,7 @@
 - 熟悉常见linux命令的使用(有linux作为主系统使用经验)
 - 熟悉Git和SVN的使用
 - 熟悉小程序和公众号的开发
-- 熟悉RPC实现原理
+- 熟悉RPC实现原理(熟悉JSONP/jsbridge/(websocket/http2)实现RPC)
 - 熟悉nginx使用
 - 熟悉SQL注入，XSS和CSRF攻击防范
 - 熟悉Oauth2原理
@@ -72,7 +73,7 @@
 
 4、科蓝员工考试系统研发
 
-- S: 公司
+- S: 为解决公司对员工进行技术考试的需求。
 - T: 负责员工考试系统总体设计，开发，部署，维护。达到满足公司员工考试需要。支持3000+用户并发下的用户访问。
 - A: 负责员工考试系统总体设计，需求讨论，使用nodejs+expressjs+mongodb开发后台，使用vue2开发前端，支持使用(redis/mongodb)持久化session, 以实现分布式部署，使用pm2部署后台应用，使用ngixn部署静态资源，使用CDN加速静态资源访问,  版本迭代过程中，编写数据库迁移脚本，优化后台接口性能, 使用PWA、gzip和http缓存优化前端静态资源加载性能和用户体验, 解决高并发下nginx服务器上的TIME-AWAIT连接数过高的问题, 使用ab/jmeter/LoadRunner测试系统接口并发。 解决使用flutter开发系统移动端时app更新问题。
 - R: 系统目前还有正常运行。 在线地址: [https://exam.csii.com.cn](https://exam.csii.com.cn)
@@ -83,7 +84,7 @@
 1、蓝信应用消息群发业务开发
 
 - S: 该系统是一个类微信公众号管理端系统（类似公众号登录后看到的界面系统)
-- T:  个人负责系统3x5菜单功能开发，公众号消息群发,消息卡片管理功能开发，达到需求描述的效果，通过QA测试，使用vue2技术实现, 前后端通讯层使用基于Websocket实现的自定义RPC协议
+- T:  个人负责系统3x5菜单功能开发，公众号消息群发,消息卡片管理功能开发，达到需求描述的效果，通过QA测试，使用vue2技术实现, 前后端通讯层不使用ajax通讯方式，使用基于Websocket实现的自定义RPC协议
 - A:  以下是我具体实施过程做的事情:  开发个人消息群发,消息卡片管理业务模块，开发3x5菜单配置模块,代码review，重构代码优化代码质量。
 - R: 功能如期稳定上线．
 
@@ -97,7 +98,7 @@
 3、网站云防护业务开发
 
 - S: 该产品是一个类似阿里云域名管理服务应用
-- T: 基于vue2开发，实现域名转入，域名防护, 域名访问数据统计等功能等功能，达到需求描述的效果，通过测试
+- T: 基于vue2+typescript+element-ui开发，实现域名转入，域名防护, 域名访问数据统计等功能等功能，达到需求描述的效果，通过测试
 - A: 业务开发，持续优化组件，优化产品用户体验。
 - R: 功能稳定上线．
 
@@ -128,8 +129,6 @@
 - R: 几个月的努力，系统已经稳定上线．组件运行良好．
 
 
-[
-](http://vx.csii.com.cn/test/captcha/#/web)
 
 # 个人兴趣作品
 
@@ -146,9 +145,9 @@
 
 ### 仿微信金额输入键盘
 
-- 功能：实现模拟数字键盘效果
+- 功能：实现模拟键盘金额输入效果
 - 相关技术: jquery, DOM, javascript
-- 代码地址:[http://www.xuxihai.top/jquery-keyboardNum/](http://www.xuxihai.top/jquery-keyboardNum/)
+- 代码地址:[https://xuxihai123.github.io/jquery-keyboardNum/](https://xuxihai123.github.io/jquery-keyboardNum/)
 
 ### 爬虫工具
 
@@ -159,7 +158,7 @@
 ### 端口扫描工具
 
 - 功能：使用TCP/SYN扫描检测目标端口开放
-- 相关技术: TCP协议/线程池
+- 相关技术: TCP协议/线程池, SYN扫描原理
 - 代码地址:[https://github.com/xuxihai123/tcpscan](https://github.com/xuxihai123/tcpscan)
 
 
@@ -174,12 +173,6 @@
 - 功能：vite脚手架支持mock
 - 相关技术: express中间件, nodejs， rollup, vite原理
 - 代码地址:[https://github.com/xuxihai123/vite-plugin-mockit](https://github.com/xuxihai123/vite-plugin-mockit)
-
-### 基于Oauth2的用户中心
-
-- 功能：基于oauth2的认证机制实现一个用户中心系统
-- 相关技术: express中间件,  nodejs， oauth2, mongodb, vue2
-- 代码地址: [https://gitlab.com/listpro/usercenter](https://gitlab.com/listpro/usercenter/oauth2-server)
 
 ### chatgpt镜像
 
