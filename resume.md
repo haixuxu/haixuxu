@@ -206,12 +206,6 @@
 - 相关技术: swiftUI, 使用前缀树快速编码查找汉字
 - 代码地址:[https://github.com/xuxihai123/lotus](https://github.com/xuxihai123/lotus) , 基于前缀树使用nodejs实现的五笔拼音搜索服务: [https://github.com/xuxihai123/inputengine](https://github.com/xuxihai123/inputengine)
 
-### 翻墙工具
-
-- 功能：突破网络封锁，浏览被封锁、遮蔽或干扰的内容, 个人主要用来访问Google相关服务。
-- 相关技术: websocket/tcp/tls/http2传输协议, 自定义双工流实现，socks5/connect代理协议,  aes等加密技术
-- 代码地址: nodejs版本: [https://github.com/bbk47/bbk](https://github.com/bbk47/bbk) GO版本 [https://github.com/bbk47/go-bbk](https://github.com/bbk47/go-bbk)
-
 ### 协议转换服务(shadowsocks协议转http代理协议)
 
 - 功能：实现shadowsocks协议转http代理(connect)协议，该服务可以用来把shadowsock客户端发出的数据包转换成未加密的connect协议数据包, 然后通过connect代理发送出去。个人主要用来在android上使用shadowsocks时转发数据到该服务，服务把数据透明发送到HTTP代理，以突破网络封锁。
