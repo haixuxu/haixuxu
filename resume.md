@@ -1,9 +1,9 @@
 # 个人信息
 
-- xuxihai/男/1993
+- 徐习海/男/1993
 - 本科/山西大学/计算机科学与技术
 - 毕业时间:  2015年7月
-- 工作年限：7年
+- 工作年限：8年
 - Github：[http://github.com/xuxihai123](http://github.com/xuxihai123)
 - 在线简历: [https://www.xuxihai.top/2017/05/12/page100](https://www.xuxihai.top/2017/05/12/page100)
 - 目前职位：前端开发工程师
@@ -64,7 +64,7 @@
 - **任务: **参考易盾/顶象/极验等厂商规范实现自己的行为验证码产品。
 - **行动: **分析各厂商实现，搜集开源实现，搭建开发环境，开发对应的前后端逻辑实现, 前端使用es6开发，使用`rollup+babel`打包前端资源(包含js/less/img)，后端使用`nodejs+expressjs+canvas`实现(初版的后端逻辑由我开发) , 迭代并完善产品，解决各浏览器兼容性问题(最低支持到IE7), 编写ts声明文件支持typescript。同时实现前端(`微信小程序/支持宝小程序`)版本, 支持微信低版本SDK兼容大部分微信客户端，开发`weex`版本，帮助集成Android/IOS版本，持续优化产品性能和用户体验(如"拖动类型的验证码"在微信小程序上的使用wxs优化动画效果), 支持多语言国际化，并编写文档。
 - **结果: **功能开发完成，产品经过检测，已完成相关文档，已被多家银行采购使用。
-- **预览: **微信小程序版本: 可搜索"悠悠有节"小程序体验,  [web在线版本](https://s2.75cos.com/examples/captchav3/)
+- **预览: **微信小程序版本: 可搜索"悠悠有节"小程序体验, 在线地址: [https://s2.75cos.com/examples/captchav13/#/web](https://s2.75cos.com/examples/captchav13/#/web)
 
 3、科蓝无障碍产品研发
 
@@ -72,7 +72,7 @@
 - **任务: **负责无障碍工具的总体设计及前端H5代码的实现。
 - **行动: **分析主流无障碍工具实现方式，基于npm搭建开发环境，使用es6开发，使用`rollup`打包前端资源(js/less/img)，使用`preact`作为视图层渲染工具状态，实现读屏、缩放、对比色、十字线等等相应的功能 , 解决工具在刷新时状态保持问题，解决顺序读取页面内容的问题，解决各浏览器的兼容性问题(最低支持到IE9)及其他相关问题，迭代并完善产品，同时开发对应的chrome插件以支持用户测试使用该产品，并编写文档。
 - **结果: **目前该产品已投产，已被多个客户采用
-- **预览: **在线预览：[PC端预览](https://vx.csii.com.cn/products/csii.a11y/speak_v1.3.0/explainTab.html)
+- **预览: **在线预览：[在线地址](https://s2.75cos.com/examples/a11y/)
 
 4、科蓝员工考试系统研发
 
@@ -88,12 +88,12 @@
 - **行动: **搭建开发环境，使用es6开发，使用rollup+babel打包js/less资源, 支持使用国密算法加密ajax请求数据, 处理输入时的模拟光标闪烁, 编写ts声明文件支持typescript, 并编写文档及vue使用示例。
 - **结果: **目前该产品已投产，已被多个客户采用。[ 手机在线预览](https://s2.75cos.com/examples/h5pwd/)
 
-6、移动端混合开发框架升级改造
+6、公司移动端混合开发框架升级改造
 
 - **背景: **公司移动端开发框架(原版本)使用weex作为一些复杂功能(调用系统通讯录等)的开发框架(想法是使用weex替代原生开发)，H5作为通用业务开发, 但是在实施过程中使用weex开发中存在一些问题。
 - **任务: **参与升级现有的移动端开发框架的工作，负责移动端js调用原生(IOS/android)能力的SDK。
 - **行动: **搭建前端开发环境，使用rollup+babel打包前端资源, 使用typescript开发，基于jsbridge封装交互逻辑, 实现场景、存储、设备信息、图片和相册操作等API，参与讨论开发过程中遇到的多进程webview通讯的问题，参与讨论开发过程中遇到在jsbridge上使用base64传递图片太大时会导致卡的问题，编写测试示例。
-- **结果: **框架升级改造完成，已投入项目使用中。
+- **结果: **框架升级改造完成，准备投入项目使用中。
 ## 360企业安全
 
 前端工程师（2018年3月 ~ 2019年8月）
@@ -153,16 +153,41 @@
 
 # 个人兴趣作品
 
-### HttpServer(http简单实现)
+### gwk(内网穿透工具)
 
-- 功能：响应html,js,css,json等静态文件资源和列出文件夹下的文件列表,不包含Http缓存,gzip等高级功能
-- 相关技术: Http协议，socket编程，perl使用fork子进程，java 使用多线程，nodejs使用核心net模块
-- 代码地址:[http://github.com/xuxihai123/HttpServer](http://github.com/xuxihai123/HttpServer)
+- 功能：类似ngrok、frp同类的工具，实现内网穿透功能，支持tcp隧道和子域名隧道模式. 
+- 相关技术: TCP协议, 自定义duplex和transform流的实现， 多路复用，反向代理技术
+- 代码地址:  nodejs实现:[https://github.com/xuxihai123/gwk.git](https://github.com/xuxihai123/gwk.git)  GO实现: [https://github.com/xuxihai123/go-gwk.git](https://github.com/xuxihai123/go-gwk.git)
+### 协议转换服务(shadowsocks协议转http代理协议)
 
-### 个人博客
+- 功能：实现shadowsocks协议转http代理(connect)协议，该服务可以用来把shadowsock客户端发出的数据包转换成未加密的connect协议数据包, 然后通过connect代理发送出去。个人主要用来在android上使用shadowsocks时转发数据到该服务，服务把数据透明发送到HTTP代理，以突破网络封锁。
+- 相关技术: shadowsocks协议, connect代理协议, 自定义transform流的运用， aes等加密技术
+- 代码地址:  [https://github.com/xuxihai123/ssock2connect](https://github.com/xuxihai123/ssock2connect)
+### 翻墙工具
 
-- 使用Node.js(Express+mysql+Ejs(前台)+Angularjs(后管))开发
-- 代码地址:[http://github.com/xuxihai123/eblog](http://github.com/xuxihai123/eblog)
+- 功能：突破网络封锁，浏览被封锁、遮蔽或干扰的内容, 个人主要用来访问Google相关服务。
+- 相关技术: websocket/tcp/tls/http2传输协议, 自定义双工流实现，socks5/connect代理协议,  aes等加密技术
+- 代码地址: nodejs版本: [https://github.com/bbk47/bbk](https://github.com/bbk47/bbk) GO版本 [https://github.com/bbk47/go-bbk](https://github.com/bbk47/go-bbk)
+### 五笔拼音输入法(Mac)
+
+- 功能：支持mac上使用五笔/拼音/五笔拼音混合输入
+- 相关技术: swiftUI, 使用前缀树快速编码查找汉字
+- 代码地址:[https://github.com/xuxihai123/lotus](https://github.com/xuxihai123/lotus) , 基于前缀树使用nodejs实现的五笔拼音搜索服务: [https://github.com/xuxihai123/inputengine](https://github.com/xuxihai123/inputengine)
+### chatgpt镜像
+
+- 功能：支持chatgpt的接入使用
+- 相关技术: express中间件, nodejs， socks5代理,  sse消息推送
+- 代码地址:[https://github.com/xuxihai123/chatgpt-mirror](https://github.com/xuxihai123/chatgpt-mirror)
+### vite插件本地mock
+
+- 功能：vite脚手架支持mock
+- 相关技术: express中间件, nodejs， rollup, vite原理
+- 代码地址:[https://github.com/xuxihai123/vite-plugin-mockit](https://github.com/xuxihai123/vite-plugin-mockit)
+### vue-cli插件本地mock
+
+- 功能：vue-cli脚手架支持mock
+- 相关技术:express中间件, webpack, vue-cli原理
+- 代码地址:[https://github.com/xuxihai123/vue-cli-plugin-mock](https://github.com/xuxihai123/vue-cli-plugin-mock)
 
 ### 仿微信金额输入键盘
 
@@ -170,48 +195,11 @@
 - 相关技术: jquery, DOM, javascript
 - 代码地址:[https://xuxihai123.github.io/jquery-keyboardNum/](https://xuxihai123.github.io/jquery-keyboardNum/)
 
-### 爬虫工具
-
-- 功能：模拟用户登录网站，获取某一接口数据，使用该列表数据生成xlsx信息，发送到指定邮箱
-- 相关技术: nodejs,熟悉使用nodejs相关模块:commander.js,moment,request,request-promise,mocha,excel.js
-- 代码地址:[https://github.com/xuxihai123/csiivpmouth](https://github.com/xuxihai123/csiivpmouth)
-
 ### 端口扫描工具
 
 - 功能：使用TCP/SYN扫描检测目标端口开放
 - 相关技术: TCP协议/线程池, SYN扫描原理
 - 代码地址:[https://github.com/xuxihai123/tcpscan](https://github.com/xuxihai123/tcpscan)
-
-### vue-cli插件本地mock
-
-- 功能：vue-cli脚手架支持mock
-- 相关技术:express中间件, webpack, vue-cli原理
-- 代码地址:[https://github.com/xuxihai123/vue-cli-plugin-mock](https://github.com/xuxihai123/vue-cli-plugin-mock)
-
-### vite插件本地mock
-
-- 功能：vite脚手架支持mock
-- 相关技术: express中间件, nodejs， rollup, vite原理
-- 代码地址:[https://github.com/xuxihai123/vite-plugin-mockit](https://github.com/xuxihai123/vite-plugin-mockit)
-
-### chatgpt镜像
-
-- 功能：支持chatgpt的接入使用
-- 相关技术: express中间件, nodejs， socks5代理
-- 代码地址:[https://github.com/xuxihai123/chatgpt-mirror](https://github.com/xuxihai123/chatgpt-mirror)
-
-### 五笔拼音输入法(Mac)
-
-- 功能：支持mac上使用五笔/拼音/五笔拼音混合输入
-- 相关技术: swiftUI, 使用前缀树快速编码查找汉字
-- 代码地址:[https://github.com/xuxihai123/lotus](https://github.com/xuxihai123/lotus) , 基于前缀树使用nodejs实现的五笔拼音搜索服务: [https://github.com/xuxihai123/inputengine](https://github.com/xuxihai123/inputengine)
-
-### 协议转换服务(shadowsocks协议转http代理协议)
-
-- 功能：实现shadowsocks协议转http代理(connect)协议，该服务可以用来把shadowsock客户端发出的数据包转换成未加密的connect协议数据包, 然后通过connect代理发送出去。个人主要用来在android上使用shadowsocks时转发数据到该服务，服务把数据透明发送到HTTP代理，以突破网络封锁。
-- 相关技术: shadowsocks协议, connect代理协议, 自定义transform流的运用， aes等加密技术
-- 代码地址:  [https://github.com/xuxihai123/ssock2connect](https://github.com/xuxihai123/ssock2connect)
-
 
 ---
 
